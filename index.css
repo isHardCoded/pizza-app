@@ -73,3 +73,25 @@ button {
   align-items: center;
   gap: 8px;
 }
+
+.panel {
+  margin-top: 40px;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+}
+
+.tab {
+  background-color: rgba(249, 249, 249, 1);
+  color: rgba(44, 44, 44, 1);
+  padding: 15px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.active {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(40, 40, 40, 1);
+}
